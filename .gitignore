@@ -1,0 +1,15 @@
+world_icon.jpeg
+/.idea/shelf/
+/.idea
+**/.mypy_cache/**
+**/.vscode/**
+**/__pycache__/**
+**/GameTests-Shapescape/**
+**/.DS_Store
+**.blend1
+**.xml
+behavior_packs/0
+resource_packs/0
+**/node_modules/**
+.eslintrc.json
+regolith/system_template_log.json
