@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.stone_golem.walk": {
+			"loop": true,
+			"anim_time_update": "q.modified_distance_moved*0.2",
+			"bones": {
+				"leg_l": {
+					"rotation": ["math.sin(q.anim_time*360+180)*30", 0, 0]
+				},
+				"leg_r": {
+					"rotation": ["math.sin(q.anim_time*360)*30", 0, 0]
+				},
+				"arm_l": {
+					"rotation": ["math.sin(q.anim_time*360)*30", 0, 0]
+				},
+				"arm_r": {
+					"rotation": ["math.sin(q.anim_time*360+180)*30", 0, 0]
+				}
+			}
+		},
+		"animation.stone_golem.look_at_target": {
+			"loop": true,
+			"bones": {
+				"head": {
+					"rotation": ["q.target_x_rotation", "q.target_y_rotation", 0.0]
+				}
+			}
+		}
+	}
+}

@@ -5,7 +5,7 @@
 		"name": "pack.name",
 		"uuid": "33dbca93-d256-4014-900b-3ad32947ddfa",
 		"version": [1, 0, 0],
-		"min_engine_version": [1, 20, 0]
+		"min_engine_version": [1, 20, 40]
 	},
 	"modules": [
 		{
@@ -28,7 +28,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.2.0"
+			"version": "1.6.0"
 		}
 	]
 }

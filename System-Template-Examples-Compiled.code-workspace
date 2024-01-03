@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "resource_packs"
+		},
+		{
+			"path": "behavior_packs"
+		}
+	],
+	"settings": {
+		"workbench.colorTheme": "Tomorrow Night Blue"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.18.20",
+	"minecraft:entity": {
+		"description": {
+			"animations": {
+				"flight_ability_controller": "controller.animation.player.flight_ability"
+			},
+			"scripts": {
+				"animate": ["flight_ability_controller"]
+			}
+		}
+	}
+}

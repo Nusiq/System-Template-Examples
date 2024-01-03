@@ -1,0 +1,75 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nusiq:stone_golem",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 1.2,
+				"width": 0.6
+			},
+			"minecraft:health": {
+				"value": 8,
+				"max": 8
+			},
+			"minecraft:healable": {
+				"force_use": false,
+				"items": [
+					{
+						"item": "minecraft:diamond"
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"breathes_air": true,
+				"breathes_water": true,
+				"breathes_lava": true,
+				"breathes_solids": true,
+				"generates_bubbles": false
+			},
+			"minecraft:movement": {
+				"max": 0.2
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {
+				"jump_power": 0.42
+			},
+			"minecraft:navigation.walk": {
+				"avoid_damage_blocks": true,
+				"avoid_sun": true,
+				"can_breach": false,
+				"can_break_doors": false,
+				"can_float": false,
+				"can_sink": true
+			},
+			"minecraft:follow_range": {
+				"value": 16,
+				"max": 24
+			},
+			"minecraft:behavior.panic": {
+				"priority": 0
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 1,
+				"can_get_scared": false,
+				"can_tempt_vertically": true,
+				"items": ["diamond"],
+				"within_radius": 0
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 2,
+				"interval": 120,
+				"xz_dist": 10,
+				"y_dist": 7
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 3
+			},
+			"minecraft:physics": {}
+		}
+	}
+}

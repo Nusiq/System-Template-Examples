@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.30",
+	"animation_controllers": {
+		"controller.animation.player.flight_ability": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"flight": "q.is_sneaking && q.is_item_name_any('slot.weapon.mainhand', 'nusiq:magic_feather')"
+						}
+					]
+				},
+				"flight": {
+					"transitions": [
+						{
+							// Always loop back, keep repeating while the player is sneaking with the feather
+							"default": "1.0"
+						}
+					],
+					"on_entry": [
+						"/effect @s levitation 1 5 true",
+						"/effect @s slow_falling 5 0 false"
+					]
+				}
+			}
+		}
+	}
+}

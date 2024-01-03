@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.41",
+	"render_controllers": {
+		"controller.render.ore_golem": {
+			"geometry": "geometry.default",
+			"arrays": {
+				"textures": {
+					"array.skin": "`[f'texture.{variant}' for variant in variants]`"
+				}
+			},
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": ["array.skin[q.variant]"]
+		}
+	}
+}
