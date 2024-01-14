@@ -169,10 +169,18 @@
 		"target": "RP/textures/items",
 		"replace_extension": ".png"
 	},
+
+	// .namespace.entity.png must be before .entity.png because otherwise the
+	// latter will match first. Order matters!
+	".namespaced.entity.png": {
+		"target": "`f'RP/textures/entity/{namespace}'`",
+		"replace_extension": ".png"
+	},
 	".entity.png": {
 		"target": "RP/textures/entity",
 		"replace_extension": ".png"
 	},
+
 	".particle.png": {
 		"target": "RP/textures/particle",
 		"replace_extension": ".png"
