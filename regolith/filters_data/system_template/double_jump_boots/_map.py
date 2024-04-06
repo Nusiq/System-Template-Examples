@@ -1,12 +1,12 @@
 [
     # Scripts
     {
-        "source": "main.js",
+        "source": "main.ts",
         "target": AUTO_FLAT,
         "on_conflict": "append_end"
     },
     {
-        "source": "subscripts/*.js",
+        "source": "subscripts/*.ts",
         "target": AUTO
     },
     # Boots

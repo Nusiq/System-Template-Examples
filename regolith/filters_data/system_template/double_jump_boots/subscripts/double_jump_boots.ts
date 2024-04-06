@@ -9,28 +9,31 @@ import {
 
 /**
  * Used to keep track of the double jump state of the player.
- * @enum {number}
  */
-const DoubleJumpState = {
-	ON_GROUND: 0,
-	FIRST_JUMP_PRESSED: 1,
-	FIRST_JUMP_RELEASE: 2,
-	DOUBLE_JUMP_USED: 3,
-};
+enum DoubleJumpState {
+	ON_GROUND,
+	FIRST_JUMP_PRESSED,
+	FIRST_JUMP_RELEASE,
+	DOUBLE_JUMP_USED,
+}
 
+/**
+ * Used to keep track of the players who try to use the double jump.
+ */
 class DoubleJumpController {
+	/** Maps player IDs to the double jump states of the players. */
+	private playerStates: Map<string, DoubleJumpState>;
+
 	constructor() {
-		/** @type {Map<string, DoubleJumpState>} */
 		this.playerStates = new Map();
 	}
 
 	tick() {
 		for (let player of world.getAllPlayers()) {
 			// Chek if player has boots
-			/** @type {EntityEquippableComponent | undefined} */
-			const inventory = /** @type {any} */ (
-				player.getComponent(EntityEquippableComponent.componentId)
-			);
+			const inventory = player.getComponent(
+				EntityEquippableComponent.componentId
+			) as EntityEquippableComponent;
 			let hasBoots = false;
 			if (inventory !== undefined) {
 				hasBoots =
@@ -47,10 +50,7 @@ class DoubleJumpController {
 		}
 	}
 
-	/**
-	 * @param {Player} player
-	 */
-	tickPlayer(player) {
+	private tickPlayer(player: Player) {
 		const state = this.playerStates.get(player.id);
 
 		// Register unknown players
