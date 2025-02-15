@@ -1,0 +1,2 @@
+- This is an example from a tutorial that shows to use System Template with the scripting API using TypeScript.
+- This system assumes that your `auto_map.json` exports files to `data/system_template_esbuild` to be processed by the `system_template_esbuild` filter.

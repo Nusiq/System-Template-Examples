@@ -1,0 +1,3 @@
+- This system is an example of using System Template with scripting using JavaScript (no additional dependencies).
+- This system assumes that you have properly configured `manifest.json` to enable scripting in your project.
+- This system assumes that your `auto_map.json` has the configuration that exports `.js` files into `BP/scripts`.

@@ -1,0 +1,42 @@
+{
+	"RP/models/entity/snail.geo.json": {
+		"sources": [
+			{
+				"path": "data/system_template/snail/visuals/snail.geo.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/animations/snail.animation.json": {
+		"sources": [
+			{
+				"path": "data/system_template/snail/visuals/snail.animation.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/nusiq/xyz/entity/snail.png": {
+		"sources": [
+			{
+				"path": "data/system_template/snail/visuals/snail.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/entities/snail.behavior.json": {
+		"sources": [
+			{
+				"path": "data/system_template/snail/snail.behavior.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/entity/snail.entity.json": {
+		"sources": [
+			{
+				"path": "data/system_template/snail/snail.entity.json",
+				"status": "Created."
+			}
+		]
+	}
+}

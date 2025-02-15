@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nusiq:snail",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/nusiq/entity/snail"
+			},
+			"geometry": {
+				"default": "geometry.nusiq.snail"
+			},
+			"animations": {
+				"walk": "animation.nusiq.snail.walk"
+			},
+			"scripts": {
+				"animate": ["walk"]
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#288483",
+				"overlay_color": "#2B7135"
+			}
+		}
+	}
+}

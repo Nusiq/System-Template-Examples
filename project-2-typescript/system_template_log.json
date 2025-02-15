@@ -1,0 +1,58 @@
+{
+	"data/system_template_esbuild/main.ts": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/main.ts",
+				"status": "Appended content to the end."
+			}
+		]
+	},
+	"data/system_template_esbuild/subscripts/double_jump_boots.ts": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/subscripts/double_jump_boots.ts",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/attachables/double_jump_boots.attachable.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.attachable.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/attachables/double_jump_boots.png": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.attachable.png",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/items/double_jump_boots.bp_item.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.bp_item.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/items/double_jump_boots.png": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.item.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/item_texture.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/item_texture.json",
+				"status": "Created."
+			}
+		]
+	}
+}

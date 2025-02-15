@@ -1,0 +1,54 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nusiq:snail",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:collision_box": {
+				"height": 0.5,
+				"width": 0.5
+			},
+			"minecraft:health": {
+				"value": 1,
+				"max": 1
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"breathes_air": true,
+				"breathes_water": true,
+				"breathes_lava": true,
+				"breathes_solids": true,
+				"generates_bubbles": false
+			},
+			"minecraft:movement": {
+				"max": 0.08
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:variable_max_auto_step": {
+				"base_value": 1.0625,
+				"jump_prevented_value": 0.5625
+			},
+			"minecraft:navigation.walk": {
+				"avoid_damage_blocks": true,
+				"avoid_sun": true,
+				"can_breach": false,
+				"can_break_doors": false,
+				"can_float": false,
+				"can_sink": true
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 2,
+				"interval": 30,
+				"xz_dist": 10,
+				"y_dist": 7
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 3
+			},
+			"minecraft:physics": {}
+		}
+	}
+}

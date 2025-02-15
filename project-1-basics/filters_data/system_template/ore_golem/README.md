@@ -1,0 +1,2 @@
+- This is an example from a tutorial that explains how to use System Template to create systems that generate parts of the code based on the names of the included texture files.
+- This system generates a simple Ore Golem entity with a texture based ore variants.

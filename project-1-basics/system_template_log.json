@@ -1,0 +1,222 @@
+{
+	"BP/scripts/main.js": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/main.js",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/scripts/subscripts/double_jump_boots.js": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/subscripts/double_jump_boots.js",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/attachables/double_jump_boots.attachable.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.attachable.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/attachables/double_jump_boots.png": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.attachable.png",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/items/double_jump_boots.bp_item.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.bp_item.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/items/double_jump_boots.png": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/boots/double_jump_boots.item.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/item_texture.json": {
+		"sources": [
+			{
+				"path": "data/system_template/double_jump_boots/item_texture.json",
+				"status": "Created."
+			},
+			{
+				"path": "data/system_template/flight_ability/item_texture.json",
+				"status": "Merged."
+			}
+		]
+	},
+	"BP/entities/player.behavior.json": {
+		"sources": [
+			{
+				"path": "data/system_template/flight_ability/player.behavior.json",
+				"status": "Merged."
+			}
+		]
+	},
+	"BP/animation_controllers/player.bp_ac.json": {
+		"sources": [
+			{
+				"path": "data/system_template/flight_ability/player.bp_ac.json",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/items/magic_feather.bp_item.json": {
+		"sources": [
+			{
+				"path": "data/system_template/flight_ability/magic_feather.bp_item.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/items/magic_feather.png": {
+		"sources": [
+			{
+				"path": "data/system_template/flight_ability/magic_feather.item.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/models/entity/ore_golem.geo.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem.geo.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/animations/ore_golem.animation.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem.animation.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/entity/ore_golem_diamond.png": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem_diamond.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/entity/ore_golem_emerald.png": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem_emerald.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/entity/ore_golem_lapis.png": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem_lapis.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/entity/ore_golem_redstone.png": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/visuals/ore_golem_redstone.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/entities/ore_golem.behavior.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/ore_golem.behavior.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/entity/ore_golem.entity.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/ore_golem.entity.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/animation_controllers/ore_golem.rp_ac.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/ore_golem.rp_ac.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/render_controllers/ore_golem.rc.json": {
+		"sources": [
+			{
+				"path": "data/system_template/ore_golem/ore_golem.rc.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/models/entity/stone_golem.geo.json": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/visuals/stone_golem.geo.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/animations/stone_golem.animation.json": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/visuals/stone_golem.animation.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/textures/entity/stone_golem.png": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/visuals/stone_golem.entity.png",
+				"status": "Created."
+			}
+		]
+	},
+	"BP/entities/stone_golem.behavior.json": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/stone_golem.behavior.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/entity/stone_golem.entity.json": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/stone_golem.entity.json",
+				"status": "Created."
+			}
+		]
+	},
+	"RP/animation_controllers/stone_golem.rp_ac.json": {
+		"sources": [
+			{
+				"path": "data/system_template/stone_golem/stone_golem.rp_ac.json",
+				"status": "Created."
+			}
+		]
+	}
+}

@@ -1,0 +1,2 @@
+- This system shows how to use system template to modify the behavior file of the Player.
+- This system assumes that you have a default player behavior in your files in `BP/entity/player.behavior.json`. It only modifies the behavior, it doesn't create the default values from scratch.

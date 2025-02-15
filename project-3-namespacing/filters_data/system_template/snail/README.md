@@ -1,0 +1,3 @@
+- This is an example from a tutorial that shows how to create an entity with dynamically generated namespaces.
+- This system requires special configuration of `config.json` to enable the namespacing feature of System Template.
+- This system requires special configuration of `auto_map.json` to include namespaces in export paths.
